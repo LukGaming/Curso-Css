@@ -1,0 +1,9 @@
+#head ~ p{
+    background-color: green;
+}
+[width="500"]{
+    background-color: green;
+}
+[title~="titulo"]{
+    background-color: green;
+}

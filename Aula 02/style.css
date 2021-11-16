@@ -21,3 +21,7 @@ li::after {
     background-position: center;
     background-size: cover;
 }
+p::selection{
+    background-color: yellow;
+    color: orange;
+}
