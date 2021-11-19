@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background-color: blue;
+}
+
+.primeira{
+    width: calc(100% - 30px);
+    height: 100px;
+    background-color: green;
+    margin: auto;
+
+}
