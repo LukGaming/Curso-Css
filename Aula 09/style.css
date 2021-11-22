@@ -1,0 +1,23 @@
+.container {
+    height: 1000px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.sqr1 {
+    background-color: red;
+}
+
+.sqr2 {
+    background-color: blue;
+}
+
+.sqr3 {
+    background-color: green;
+}
+
+.sqr {
+    width: 100px;
+    height: 100px;
+}
