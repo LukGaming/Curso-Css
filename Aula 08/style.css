@@ -1,0 +1,21 @@
+:root{
+    --var_color_p: gray;
+    --var_tamanho_heigth_div: 50px;
+    
+}
+.p2{
+    color: var(--var_color_p);
+    font-size: 25px;
+}
+.p3{
+    color: var(--var_color_p);
+    font-size: 14px;
+}
+.sqr1{
+    background-color: red;
+    height: var(--var_tamanho_heigth_div);
+}
+.sqr2{
+    background-color: aqua;
+    height: var(--var_tamanho_heigth_div);
+}
