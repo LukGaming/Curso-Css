@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    margin-top: 100px;
+    background-color: blue;
+    width: 800px;
+    height: 800px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.message-send {
+    text-align: justify;
+    background-color: green;
+    margin: 5px 5px  5px 25%;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.message-send-message {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.message-received {
+    text-align: justify;
+    background-color: red;
+    margin:  5px 25% 5px  5px ;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.message-received-message {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.time{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 75%;
+    
+}
