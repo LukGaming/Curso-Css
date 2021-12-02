@@ -2,26 +2,27 @@
     height: 400px;
     background-color: azure;
     display: flex;
-    /* flex-wrap: wrap-reverse; */
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    
-    
+ 
+   
+      
     
 
 }
 
 .srq1 {
     background-color: red;
+    flex-shrink: 0;
+    
 }
 
 .srq2 {
     background-color: blue;
+    flex-shrink: 1;
 }
 
 .srq3 {
     background-color: yellow;
+    flex-shrink: 1;
 }
 
 .rect {
