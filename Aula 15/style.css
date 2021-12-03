@@ -1,0 +1,35 @@
+.container {
+    height: 400px;
+    background-color: azure;
+    display: flex;
+ 
+   
+      
+    
+
+}
+
+.srq1 {
+    background-color: red;
+    flex-shrink: 0;
+    order: 1;
+    
+}
+
+.srq2 {
+    background-color: blue;
+    flex-shrink: 1;
+    order: 0;
+}
+
+.srq3 {
+    background-color: yellow;
+    flex-shrink: 1;
+    order: -1;
+}
+
+.rect {
+    width: 300px;
+    height: 100px;
+
+}
