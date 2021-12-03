@@ -1,0 +1,36 @@
+.container {
+   
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 5% auto;  
+    grid-template-rows: 10% auto;  
+    
+    
+   
+      
+    
+
+}
+
+.srq1 {
+    background-color: red;
+    border: 2px solid black;
+   
+}
+
+.srq2 {
+    background-color: blue;
+    border: 2px solid black;
+    
+}
+
+.srq3 {
+    background-color: yellow;
+    border: 2px solid black;
+    
+}
+
+.rect {
+    height: 75vh;
+
+}
