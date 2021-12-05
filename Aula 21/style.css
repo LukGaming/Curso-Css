@@ -4,8 +4,10 @@
     display: grid;
     grid-template: auto auto / auto auto auto auto;
     grid-gap: 10px;
-    justify-items: center;
+    justify-items: stretch;
     align-items: flex-start;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
 .srq1 {
@@ -21,5 +23,6 @@
 }
 
 .rect {
+    width: 100px;
     height: 400px;
 }
